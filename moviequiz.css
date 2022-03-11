@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 body {
@@ -239,6 +240,12 @@ body {
           height: 100%;
           padding-bottom: 3rem;
      }
+    .ques {
+        font-size: 1.5rem;
+    }
+    .option-list {
+        font-size: 1.5rem;
+    }
 
 }
 
@@ -258,10 +265,10 @@ body {
      }
 
      .ques {
-         font-size: 1.7rem;
+         font-size: 1.5rem;
      }
      .optionlist {
-         font-size: 1.2rem;
+         font-size: 1.5rem;
      }
 
      .btn {
@@ -286,7 +293,7 @@ body {
      }
 
      .ques {
-         font-size: 2rem;
+         font-size: 1.5rem;
      }
      .optionlist {
          font-size: 1.5rem;
@@ -320,7 +327,7 @@ body {
      }
 
      .ques {
-         font-size: 2rem;
+         font-size: 1.7rem;
      }
      .optionlist {
          font-size: 1.5rem;
@@ -353,7 +360,7 @@ body {
      }
 
      .ques {
-         font-size: 2rem;
+         font-size: 1.7rem;
      }
      .optionlist {
          font-size: 1.5rem;
