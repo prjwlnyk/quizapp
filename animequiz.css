@@ -242,6 +242,9 @@ body {
     .ques {
         font-size: 1.5rem;
     }
+    .optionlist {
+        font-size: 1.5rem;
+    }
     .questions {
         width: 90%;
     }
@@ -268,10 +271,10 @@ body {
 
 
      .ques {
-         font-size: 1.5rem;
+         font-size: 1.7rem;
      }
      .optionlist {
-         font-size: 1.2rem;
+         font-size: 1.5rem;
      }
 
      .btn {
@@ -300,7 +303,7 @@ body {
 
 
      .ques {
-         font-size: 1.5rem;
+         font-size: 1.7rem;
      }
      .optionlist {
          font-size: 1.5rem;
@@ -337,7 +340,7 @@ body {
     }
 
      .ques {
-         font-size: 1.5rem;
+         font-size: 1.7rem;
      }
      .optionlist {
          font-size: 1.5rem;
@@ -373,7 +376,7 @@ body {
     }
 
      .ques {
-         font-size: 1.5rem;
+         font-size: 1.7rem;
      }
      .optionlist {
          font-size: 1.5rem;
