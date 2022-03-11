@@ -48,7 +48,7 @@ const showDB = [
 		    ans: "ans2"
             },
 	{ 
-		question: "Q7: When Walt retired from the meth game, how much money did he walk away with?",
+		question: "Q7: When Walt retired, how much money did he walk away with?",
 			a: "80 Million",
 			b: "4 Million",
 			c: "40 Million",
