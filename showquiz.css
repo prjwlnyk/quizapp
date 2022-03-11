@@ -238,6 +238,10 @@ body {
           height: 100%;
           padding-bottom: 3rem;
      }
+    .questions{
+        width: 90%;
+    }
+
 
 }
 
@@ -259,6 +263,9 @@ body {
      .ques {
          font-size: 1.7rem;
      }
+     .questions{
+        width: 90%;
+    }
      .optionlist {
          font-size: 1.2rem;
      }
@@ -290,6 +297,9 @@ body {
      .optionlist {
          font-size: 1.5rem;
      }
+     .questions {
+        width: 90%;
+    } 
 
      .btn {
          font-size: 1rem;
@@ -321,6 +331,9 @@ body {
      .ques {
          font-size: 2rem;
      }
+     .questions {
+        width: 90%;
+    } 
      .optionlist {
          font-size: 1.5rem;
      }
@@ -357,6 +370,9 @@ body {
      .optionlist {
          font-size: 1.5rem;
      }
+    .questions{
+        width: 90%;
+    }
 
      .btn {
          font-size: 1rem;
