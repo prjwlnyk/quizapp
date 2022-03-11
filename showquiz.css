@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hind+Siliguri:wght@300;500&family=Nunito:wght@200;300;400;500;600;700;800;900&family=Patrick+Hand&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+        background-image:  linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+          ),url('showsback.jpg');
+         background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          height: 100vh;
+     }
+     
+.category {
+    text-align: center;
+    padding: 1rem;
+}
+
+.head {
+    font-weight: 700;
+    letter-spacing: 0.05rem;
+    font-size: 3.5rem;
+    font-family: "Hind Siliguri";
+    color: #FF3f80;
+    animation-name: fadein;
+    animation-duration: 2s;
+}
+
+.questions {
+    padding-top: 2rem;
+    margin-left: 4.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    width: 100%;
+}
+
+.ques {
+    font-size: 1.5rem;
+    font-family: "Hind Siliguri";
+    color: whitesmoke;
+    animation-name: fadein;
+    animation-duration: 4s;
+}
+
+.options {
+    margin-top: 6rem;
+    width: 70%;
+} 
+
+
+.optionlist {
+    animation-name: fadein;
+    animation-duration: 4s;
+    color: whitesmoke;
+    font-family: "Nunito";
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 4rem;
+    margin: 3rem 4.5rem;
+    list-style-type: none;   
+}
+
+.btn-res {
+    position: relative;
+    margin-top: 2rem;
+    display: flex;
+    margin-left: 4.5rem;
+    
+}
+
+.instresult {
+    color: whitesmoke;
+    font-family: "Nunito";
+    margin-left: 3rem;
+    margin-top: 0.5rem;
+}
+
+.submit-btn {
+    width: 4rem;
+    height: 2rem;
+    font-weight: 750;
+    color:#203647;
+    cursor: pointer;
+    background-color: #FF3f80;
+    color:whitesmoke;
+    border-radius: 5px;
+}
+
+.instresult {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 0.05rem;
+    margin-top: -0.5rem;
+}
+
+.direction {
+    margin-top: 4rem;
+    margin-left: 4rem;
+}
+.gohome-btn {
+    margin-left: 0rem;
+    visibility: hidden;
+    width: 6rem;
+    height: 3rem;
+    font-weight: 750;
+    cursor: pointer;
+    background-color: #04a182;
+    color: whitesmoke;
+    border-radius: 5px;
+}
+
+.playagain-btn {
+    margin-left: 15rem;
+    visibility: hidden;
+    width: 6rem;
+    height: 3rem;
+    cursor: pointer;
+    font-weight: 750;
+    background-color: #04a182;
+    color: whitesmoke;
+    animation-name: fadein;
+    animation-duration: 2s;
+    border-radius: 5px;
+}
+
+@keyframes fadein {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;  
+        }
+    
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    transform-style:flat;
+}
+
+.btn {
+    border: none;
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+
+    *{
+        margin:0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+    body {
+        background-image:  linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+          ),url('showsback.jpg');
+         background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          height: 100%;
+     }
+     
+    .head {
+        font-size: 2rem;
+    }
+    .questions {
+        padding: 0 3rem;
+        margin:1rem 0 0 0;
+        width: 100%;
+        align-items: center;
+    }
+    .ques{
+        text-align: center;
+        font-size: 1.2rem;
+    }
+     .options {
+         margin: 0;
+        width: 100%;
+     }
+    .optionlist {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align:center;
+    }
+    .btn-res {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+    }
+    .instresult {
+        margin: 1rem 0 0 0;
+    }
+    .direction {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 1rem 0 0 0;
+        padding: 2rem;   
+    }
+    .gohome-btn {
+        width: 6rem;
+        height: 3rem;
+    }
+    .playagain-btn {
+        width: 6rem;
+        height: 3rem;
+        margin: 1rem 0 0 0;    
+    }
+    
+}
+
+
+
+@media screen and (max-width: 768px) and (min-width: 481px) {
+
+    body {
+        background-image:  linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+          ),url('showsback.jpg');
+         background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          height: 100%;
+          padding-bottom: 3rem;
+     }
+
+}
+
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+
+    body {
+        background-image:  linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+          ),url('showsback.jpg');
+         background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          height: 100%;
+          padding-bottom: 3rem;
+     }
+
+     .ques {
+         font-size: 1.7rem;
+     }
+     .optionlist {
+         font-size: 1.2rem;
+     }
+
+     .btn {
+         font-size: 1rem;
+     }
+}
+
+
+
+@media screen and (max-width: 1200px) and (min-width: 1025px) {
+
+    body {
+        background-image:  linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+          ),url('showsback.jpg');
+         background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          height: 100%;
+          padding-bottom: 3rem;
+     }
+
+     .ques {
+         font-size: 2rem;
+     }
+     .optionlist {
+         font-size: 1.5rem;
+     }
+
+     .btn {
+         font-size: 1rem;
+     }
+
+     .submit-btn {
+         width: 5rem;
+         height: 2.5rem;
+     }
+
+
+}
+
+
+@media screen and (max-width: 1200px) and (min-width: 1025px) {
+
+    body {
+        background-image:  linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+          ),url('showsback.jpg');
+         background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          height: 100%;
+          padding-bottom: 3rem;
+     }
+
+     .ques {
+         font-size: 2rem;
+     }
+     .optionlist {
+         font-size: 1.5rem;
+     }
+
+     .btn {
+         font-size: 1rem;
+     }
+
+     .submit-btn {
+         width: 5rem;
+         height: 2.5rem;
+     }
+
+}
+
+
+@media screen and (min-width: 1201px) {
+
+    body {
+        background-image:  linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+          ),url('showsback.jpg');
+         background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          height: 100%;
+          padding-bottom: 3rem;
+     }
+
+     .ques {
+         font-size: 2rem;
+     }
+     .optionlist {
+         font-size: 1.5rem;
+     }
+
+     .btn {
+         font-size: 1rem;
+     }
+
+     .submit-btn {
+         width: 5rem;
+         height: 2.5rem;
+     }
+
+
+}
+
+

@@ -1,0 +1,621 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hind+Siliguri:wght@300;500&family=Nunito:wght@200;300;400;500;600;700;800;900&family=Patrick+Hand&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+html {
+    background-color: #203647;
+}
+
+/* Section-1 */
+.navbar {
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.navbar-brand {
+    font-size: 4rem;
+    font-family: "Patrick Hand", cursive;
+    font-weight: 700;
+    text-align: center;
+}
+
+.navbar-link {
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 1.5rem;
+        margin: 1rem 3rem 1rem 3rem;
+        font-family: "Nunito";
+}
+/* End of section-1 */
+
+/* Section-2 */
+.category {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+.sechead {
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: "Hind Siliguri";
+    color: whitesmoke;
+    animation-name: fadein;
+    animation-duration: 1s;
+}
+.category-secrow {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+}
+
+.imgcap {
+    position: relative;
+    text-align: center;
+    font-family: "Hind Siliguri";
+    font-size: 2rem;
+    font-weight: 400;
+    color: whitesmoke;
+    top: 0.7rem;
+}
+
+.catimg {
+    width: 18rem;
+    height: 14rem;
+    object-fit: cover;
+    max-width: 100%;
+    max-height: auto;
+}
+.catelem {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    overflow-y: hidden;
+}
+
+/* End of section-2 */
+
+/* Section-3 */
+.about {
+    margin-top: 6rem;
+    padding: 0 5rem;
+    text-align: center;
+}
+.about-text {
+    font-size: 1.4rem;
+    margin-top: 3rem;
+    padding: 0 5rem;
+    color: whitesmoke;
+    font-family: "Nunito";
+}
+/* End of section-3  */
+
+/* Section-4 */
+.review {
+    margin-top: 4rem;
+}
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 10rem;
+    margin-top: 4rem;
+}
+
+.card {
+    width: 25rem;
+    align-items: center;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #E69C24;
+    border-radius: 5px;
+    color: whitesmoke;
+    margin: 0 2rem;
+    box-shadow: 0.3rem 0.3rem 0.3rem #000;
+}
+
+.card-img {
+    border-radius: 50%;
+}
+
+.card-name {
+    margin: 1rem 0;
+    font-family: "Hind Siliguri";
+    font-weight: 700;
+    letter-spacing: 0.05rem;
+}
+
+.card-text {
+    text-align: center;
+    font-family: "Nunito";
+}
+/* End of Section-4 */
+
+.footer{
+    background-color: #000;
+    padding-top: 1rem;
+    margin-top: 7rem;
+    padding-bottom: 1.5rem;
+}
+
+/* Section-5 */
+.register-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    color: white;
+}
+
+.reg-text p{
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: "Hind Siliguri";
+}
+
+.signup-form-input {
+    height: 2.5rem;
+    width: 20rem;
+    padding: 0.5rem;
+    border: 1px solid #E69C24;
+}
+
+.signup-form-input::placeholder{
+    color: #E69C24;
+}
+
+.signup-form-btn {
+    position: relative;
+    width: 2.2rem;
+    height: 2.2rem;
+    left: -2.65rem;
+    top: 0.03rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    color: #E69C24;
+    background-color: #203647;
+    cursor: pointer;
+    justify-content: center;
+}
+/* End of section-5 */
+
+/* Section-6 */
+.whiteline {
+    color: whitesmoke;
+    margin-top: 2rem;
+}
+.copyright {
+    margin-top: 2rem;
+    text-align: center;
+    color: white;
+    font-family: "Nunito";
+}
+/* End of section-6 */
+
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;  
+    }
+
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+    *{
+        margin:0;
+        padding: 0;
+        overflow-x: hidden;
+        box-sizing: border-box;
+    }
+    .navbar-brand{
+        width: 100%;
+        margin-top: 1.5rem;
+    }
+    .navbar {
+        visibility: hidden;
+    }
+    .category    {
+        margin-top: -7rem;
+        width: 100%;
+    }
+    .sechead {
+        height: 100%;
+        text-align: center;
+        padding: 0 6.5rem;
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+    .category-secrow {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1.5rem;
+        justify-content: space-between;
+    }
+    .catimg {
+        width: 14rem;
+        height: 11rem;
+    }
+    .imgcap {
+        font-size: 1.5rem;
+        padding-top: 0;
+    }
+    .showw {
+        margin-top: 1.6rem;
+    }
+    .animee {
+        margin-top: 1.6rem;
+    }
+    .about {
+        margin-top: 3rem;
+        width: 100%;
+        padding:0;
+    }
+    .abouthead{
+        text-align: center;
+    }
+    .about-text{
+        margin-top: 1.3rem;
+        font-size: 1rem;
+        padding:0 2rem;
+    }
+    .review {
+        width: 100%;
+        text-align: center;
+        margin-top: 3rem;
+    }
+    .card-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 2rem;
+    }
+    .card {
+        width: 14rem;
+        height: 18rem;
+        margin-bottom: 1rem; 
+        padding: 0.9rem;
+    }
+    .card-name {
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    .card-text {
+        font-size: 1rem;
+        font-weight: 500;
+        margin: 0;
+
+    }
+    .footer {
+        width: 100%;
+        height: 15rem;
+        margin-top: 3rem;
+    }
+    .register-container{
+        display: flex;
+        flex-direction: column;   
+    }
+    .reg-text {
+        width:100%;
+    }
+    .reg-text p{
+        font-size: 1rem;
+        font-weight: 400;
+        text-align: center;
+    }
+    .reg-form {
+        width: 16rem;
+        height: 4rem;
+        margin-top: 2rem;
+    }
+    .signup-form-btn {
+        position: relative;
+        left: 13.65rem;
+        top:-2.3rem;
+    }
+    .whiteline {
+         margin-top: 0;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px) and (min-width:481px) {
+    *{
+        margin:0;
+        padding: 0;
+        overflow-x: hidden;
+        box-sizing: border-box;
+    }
+    .navbar-brand{
+        width: 100%;
+        margin-top: 1.5rem;
+    }
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 4rem;
+        margin-top: 1.5rem;
+    }
+    .navbar-link {
+        font-size: 1rem;
+        margin:0;  
+    }
+    .category    {
+        width: 100%;
+        margin-top: 4.5rem;
+    }
+    .sechead {
+        height: 100%;
+        text-align: center;
+        padding: 0 6.5rem;
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    .category-secrow {
+        display: flex;
+        margin-top: 2rem;
+        justify-content: space-between;
+        padding: 0 3rem;
+    }
+    .catimg {
+        width: 12rem;
+        height: 8rem;
+    }
+    .imgcap {
+        font-size: 1rem;
+        padding-top: 0;
+        top: 0;
+    }
+    .showw {
+        margin-top: 0;
+    }
+    .animee {
+        margin-top: 0;
+    }
+    .about {
+        margin-top: 3rem;
+        width: 100%;
+        padding:0;
+    }
+    .abouthead{
+        text-align: center;
+    }
+    .about-text{
+        margin-top: 1.3rem;
+        font-size: 1rem;
+        padding:0 4rem;
+    }
+    .review {
+        width: 100%;
+        text-align: center;
+        margin-top: 3rem;
+    }
+    .card-container {
+        align-items: center;
+        margin-top: 2rem;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 0.5rem;
+    }
+    .card {
+        width: 14rem;
+        height: 16rem;
+        padding: 0.4rem;
+  
+    }
+    .card-img {
+        width: 7rem;
+        height: auto;
+    }
+    .card-name {
+        font-size: 1rem;
+        font-weight: 700;
+        margin-top: 0;
+        margin-bottom: 0;
+        overflow-y: hidden;
+    }
+    .card-text {
+        font-size: 0.8rem;
+        font-weight: 300;
+        margin-top: 0;
+        overflow-y: hidden;
+        padding: 0 -0.2rem;
+    }
+    .footer {
+        width: 100%;
+        height: 15rem;
+        margin-top: 3rem;
+    }
+    .register-container{
+        display: flex;
+        flex-direction: column;   
+    }
+    .reg-text {
+        width:100%;
+    }
+    .reg-text p{
+        font-size: 1.5rem;
+        font-weight: 700;
+        text-align: center;
+    }
+    .reg-form {
+        width: 16rem;
+        height: 4rem;
+        margin-top: 2rem;
+        overflow-y: hidden;
+    }
+    .signup-form-btn {
+        position: relative;
+        left: 13.65rem;
+        top:-2.3rem;
+    }
+    .whiteline {
+         margin-top: 0;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 1024px) and (min-width:769px) {
+    *{
+        margin:0;
+        padding: 0;
+        overflow-x: hidden;
+        box-sizing: border-box;
+    }
+    .navbar-brand{
+        width: 100%;
+        margin-top: 1.5rem;
+    }
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 8rem;
+        margin-top: 1.5rem;
+    }
+    .navbar-link {
+        font-size: 1.5rem;
+        margin:0;  
+    }
+    .category    {
+        width: 100%;
+        margin-top: 4.5rem;
+    }
+    .sechead {
+        height: 100%;
+        text-align: center;
+        padding: 0 6.5rem;
+        font-size: 2.3rem;
+        font-weight: 700;
+    }
+    .category-secrow {
+        display: flex;
+        margin-top: 2rem;
+        justify-content: space-between;
+        padding: 0 4rem;
+    }
+    .catimg {
+        width: 15rem;
+        height: 10rem;
+    }
+    .imgcap {
+        font-size: 1.5rem;
+        padding-top: 0;
+        top: 0;
+    }
+    .showw {
+        margin-top: 0;
+    }
+    .animee {
+        margin-top: 0;
+    }
+    .about {
+        margin-top: 3rem;
+        width: 100%;
+        padding:0;
+    }
+    .abouthead{
+        text-align: center;
+    }
+    .about-text{
+        margin-top: 1.3rem;
+        font-size: 1.2rem;
+        padding:0 4rem;
+    }
+    .review {
+        width: 100%;
+        text-align: center;
+        margin-top: 3rem;
+    }
+    .card-container {
+        align-items: center;
+        margin-top: 2rem;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 0.5rem;
+    }
+    .card {
+        width: 14rem;
+        height: 16rem;
+        padding: 0.4rem;
+  
+    }
+    .card-img {
+        width: 8rem;
+        height: auto;
+    }
+    .card-name {
+        font-size: 1.2rem;
+        font-weight: 700;
+        margin-top: 0;
+        margin-bottom: 0;
+        overflow-y: hidden;
+    }
+    .card-text {
+        font-size: 1rem;
+        font-weight: 300;
+        margin-top: 0;
+        overflow-y: hidden;
+        padding: 0 -0.2rem;
+    }
+    .footer {
+        width: 100%;
+        height: 15rem;
+        margin-top: 3rem;
+    }
+    .register-container{
+        display: flex;
+        flex-direction: column;   
+    }
+    .reg-text {
+        width:100%;
+    }
+    .reg-text p{
+        font-size: 1.5rem;
+        font-weight: 700;
+        text-align: center;
+    }
+    .reg-form {
+        width: 16rem;
+        height: 4rem;
+        margin-top: 2rem;
+        overflow-y: hidden;
+    }
+    .signup-form-btn {
+        position: relative;
+        left: 13.65rem;
+        top:-2.3rem;
+    }
+    .whiteline {
+         margin-top: 0;
+    }
+}
+
+
+
