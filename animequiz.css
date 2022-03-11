@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 body {
@@ -238,6 +239,12 @@ body {
           height: 100%;
           padding-bottom: 3rem;
      }
+    .ques {
+        font-size: 1.5rem;
+    }
+    .questions {
+        width: 90%;
+    }
 
 }
 
@@ -255,9 +262,13 @@ body {
           height: 100%;
           padding-bottom: 3rem;
      }
+    .questions {
+        width: 90%;
+    }
+
 
      .ques {
-         font-size: 1.7rem;
+         font-size: 1.5rem;
      }
      .optionlist {
          font-size: 1.2rem;
@@ -283,9 +294,13 @@ body {
           height: 100%;
           padding-bottom: 3rem;
      }
+    .questions {
+        width: 90%;
+    }
+
 
      .ques {
-         font-size: 2rem;
+         font-size: 1.5rem;
      }
      .optionlist {
          font-size: 1.5rem;
@@ -317,9 +332,12 @@ body {
           height: 100%;
           padding-bottom: 3rem;
      }
+    .questions {
+        width: 90%;
+    }
 
      .ques {
-         font-size: 2rem;
+         font-size: 1.5rem;
      }
      .optionlist {
          font-size: 1.5rem;
@@ -350,9 +368,12 @@ body {
           height: 100%;
           padding-bottom: 3rem;
      }
+    .questions {
+        width: 90%;
+    }
 
      .ques {
-         font-size: 2rem;
+         font-size: 1.5rem;
      }
      .optionlist {
          font-size: 1.5rem;
